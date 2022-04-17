@@ -72,7 +72,6 @@ p {
   flex-direction: row;
   padding-right: 215px;
   padding-left: 215px;
-  padding-top: auto;
   vertical-align: middle;
 }
 
@@ -218,6 +217,15 @@ p {
   background-color: var(--hero-backgr);
 }
 .adress {
+  text-decoration: none;
+  font-style: normal;
+}
+
+address {
+  font-style: normal;
+}
+
+.adress-footer {
   text-decoration: none;
   font-style: normal;
 }
