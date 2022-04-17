@@ -8,6 +8,7 @@
   --our-team-backgr: #f5f4fa;
   --footr-link: rgba(255, 255, 255, 0.6);
   --button-hiro-focus: #188ce8;
+  --border-line: #ececec;
 }
 html {
   box-sizing: border-box;
@@ -77,6 +78,7 @@ p {
   padding-right: 215px;
   padding-left: 215px;
   vertical-align: middle;
+  border-bottom: 1px solid var(--border-line);
 }
 
 .adress {
