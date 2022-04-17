@@ -7,6 +7,15 @@
   --hero-backgr: #2f303a;
   --our-team-backgr: #f5f4fa;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 Body {
   font-family: 'Roboto', sans-serif;
   color: var(--contact-links-color);
@@ -14,6 +23,28 @@ Body {
   font-weight: 400;
 }
 /* background-color: var(--button-txt-focus-col); */
+
+h1 {
+  margin: 0px 0px 0px 0px;
+}
+h2 {
+  margin: 0px 0px 0px 0px;
+}
+h3 {
+  margin: 0px 0px 0px 0px;
+}
+h4 {
+  margin: 0px 0px 0px 0px;
+}
+p {
+  margin: 0px 0px 0px 0px;
+}
+
+.container {
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+}
 
 .link {
   text-decoration: none;
@@ -36,8 +67,44 @@ Body {
   transition-duration: 0.4s;
 }
 
+.heder {
+  display: flex;
+  flex-direction: row;
+  padding-right: 215px;
+  padding-left: 215px;
+  padding-top: auto;
+}
+
+.adress {
+  display: flex;
+  flex-direction: row;
+}
+
+.adress-footer {
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation__link {
+  color: var(--nav-links-color);
+  font-weight: 500;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--focus-color);
+}
+
 .hero-ind {
+  padding-left: 15px;
+  padding-right: 15 px;
+  margin: 0 auto;
+  text-align: center;
   background-color: var(--hero-backgr);
+  width: 1200px;
 }
 
 .hero-ind__header {
@@ -47,7 +114,6 @@ Body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--button-txt-focus-col);
-  text-transform: uppercase;
 }
 
 .hero-ind__button {
@@ -80,7 +146,6 @@ Body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--nav-links-color);
-  text-transform: uppercase;
 }
 .aboutus__txt {
   line-height: 24px;
@@ -138,6 +203,7 @@ Body {
   letter-spacing: 0.03em;
   color: var(--focus-color);
   text-decoration: none;
+  outline: 2px #2196f3;
 }
 .logo__text {
   color: var(--logo-color);
@@ -167,14 +233,4 @@ Body {
 
 .nav-links {
   list-style-type: none;
-}
-
-.navigation__link {
-  color: var(--nav-links-color);
-  font-weight: 500;
-}
-
-.navigation__link:hover,
-.navigation__link:focus {
-  color: var(--focus-color);
 }
