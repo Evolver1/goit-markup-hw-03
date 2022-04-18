@@ -57,6 +57,8 @@ p {
 
 .list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .button {
@@ -75,26 +77,48 @@ p {
 .heder {
   display: flex;
   flex-direction: row;
-  vertical-align: middle;
+  align-items: center;
   border-bottom: 1px solid var(--border-line);
+  width: 1200px;
+}
+
+.heder:last-child {
+  justify-content: flex-end;
+  margin-right: 15px;
 }
 
 .adress {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .adress-footer {
 }
 
+.navigait {
+  display: block;
+}
 .navigation {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.navigation__li {
+  margin-right: 50px;
+}
+
+.navigation__li:last-child {
+  margin-right: 0px;
 }
 
 .navigation__link {
+  display: block;
   color: var(--nav-links-color);
   font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation__link:hover,
@@ -104,6 +128,7 @@ p {
 
 .hero-ind {
   background-color: var(--hero-backgr);
+  text-align: center;
 }
 
 .hero-ind__header {
@@ -114,6 +139,8 @@ p {
   text-transform: uppercase;
   color: var(--button-txt-focus-col);
   text-transform: uppercase;
+  margin-top: 200px;
+  margin-bottom: 30px;
 }
 
 .hero-ind__button {
@@ -123,6 +150,7 @@ p {
   color: var(--button-txt-focus-col);
   font-weight: 700;
   line-height: 30px;
+  margin-bottom: 200px;
 }
 
 .hero-ind__button:hover,
@@ -217,7 +245,9 @@ p {
   letter-spacing: 0.03em;
   color: var(--focus-color);
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  margin-right: 93px;
+  margin-left: 15px;
 }
 .logo__text {
   color: var(--logo-color);
