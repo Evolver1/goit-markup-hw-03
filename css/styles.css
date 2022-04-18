@@ -79,7 +79,6 @@ p {
   flex-direction: row;
   align-items: center;
   border-bottom: 1px solid var(--border-line);
-  width: 1200px;
 }
 
 .heder:last-child {
@@ -91,6 +90,9 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.adress:first-child {
+  margin-right: 12px;
 }
 
 .adress-footer {
@@ -168,6 +170,11 @@ p {
 }
 /* .aboutus {
 } */
+.aboutus__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .aboutus__header {
   font-weight: 700;
   font-size: 14px;
@@ -263,6 +270,10 @@ p {
 .adress {
   text-decoration: none;
   font-style: normal;
+}
+
+.adress__li {
+  display: block;
 }
 
 .adress__link {
