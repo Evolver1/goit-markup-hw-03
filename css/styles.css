@@ -48,7 +48,6 @@ p {
   width: 1200px;
   padding-left: 15;
   padding-right: 15;
-  outline: 2px tomato;
 }
 
 .link {
@@ -186,6 +185,7 @@ p {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--nav-links-color);
+  text-align: center;
 }
 
 .weare__list {
