@@ -60,6 +60,7 @@ p {
   padding: 0;
   margin: 0;
 }
+
 .image {
   display: block;
 }
@@ -85,25 +86,40 @@ p {
 }
 
 .heder:last-child {
-  justify-content: flex-end;
-  margin-right: 15px;
+  margin-left: auto;
 }
 
 .adress {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: auto;
 }
-.adress:first-child {
+
+.adress__li {
   margin-right: 12px;
+}
+
+.adress__link {
+  color: var(--contact-links-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.adress__link:hover,
+.adress__link:focus {
+  color: var(--focus-color);
 }
 
 .adress-footer {
 }
 
 .navigait {
-  display: block;
+  display: flex;
 }
+
 .navigation {
   display: flex;
   flex-direction: row;
@@ -273,7 +289,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--focus-color);
   text-decoration: none;
-  display: block;
+  display: flex;
   margin-right: 93px;
   margin-left: 15px;
 }
@@ -288,26 +304,6 @@ p {
 .futer-sec {
   background-color: var(--hero-backgr);
 }
-.adress {
-  text-decoration: none;
-  font-style: normal;
-}
-
-.adress__li {
-  display: block;
-}
-
-.adress__link {
-  color: var(--contact-links-color);
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.adress__link:hover,
-.adress__link:focus {
-  color: var(--focus-color);
-}
-
 .adr {
   text-decoration: none;
   font-style: normal;
