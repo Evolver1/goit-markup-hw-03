@@ -114,6 +114,10 @@ p {
   color: var(--focus-color);
 }
 
+.adress__link:visited {
+  color: var(--button-hiro-focus);
+}
+
 .adress-footer {
 }
 
@@ -146,6 +150,10 @@ p {
 .navigation__link:hover,
 .navigation__link:focus {
   color: var(--focus-color);
+}
+
+.navigation__link:visited {
+  color: var(--button-hiro-focus);
 }
 
 .hero-ind {
