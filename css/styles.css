@@ -9,6 +9,7 @@
   --footr-link: rgba(255, 255, 255, 0.6);
   --button-hiro-focus: #188ce8;
   --border-line: #ececec;
+  --card-border: #eeeeee;
 }
 html {
   box-sizing: border-box;
@@ -373,13 +374,15 @@ section {
   height: 404px;
   margin-top: 30px;
   margin-left: 30px;
+  border: 1px solid var(--card-border);
+  box-sizing: border-box;
 }
 
 /* .our-progects__img {} */
 
 .our-progects__Card-cont {
   padding-top: 20px;
-  padding-right: 24px;
+  padding-left: 24px;
   padding-bottom: 20px;
 }
 
