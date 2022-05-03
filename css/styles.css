@@ -371,19 +371,18 @@ section {
 
 .our-progects__img-li {
   width: 370px;
-  height: 404px;
+  /* height: 404px; */
   margin-top: 30px;
   margin-left: 30px;
   border: 1px solid var(--card-border);
-  
 }
 
-.our-progects__img {box-sizing: border-box; */
+.our-progects__img {
+  box-sizing: border-box;
+}
 
 .our-progects__Card-cont {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 
 .our-progects__header {
